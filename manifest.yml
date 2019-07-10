@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: cloud-zoea608
+  name: cloud-zoea608
+  memory: 64M
+  stack: cflinuxfs2
